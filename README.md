@@ -25,7 +25,7 @@
  
 Most mapping apps are built for navigation. MyMaps is built for **memory**.
  
-There's no easy way to annotate a map with personal context — why a place matters, when you visited, or what it meant. MyMaps solves this by combining interactive Google Maps with a personal cloud database, letting users pin locations with custom notes, colors, and timestamps — organized into named trip collections.
+There's no easy way to annotate a map with personal context. why a place matters, when you visited, or what it meant. MyMaps solves this by combining interactive Google Maps with a personal cloud database, letting users pin locations with custom notes, colors, and timestamps  organized into named trip collections.
  
 Built as my first solo Android project to learn the full mobile stack: UI layout, Activity lifecycle, cloud architecture, and auth security.
  
@@ -118,8 +118,6 @@ maps/{mapDocumentId}
  
 **HUE-based color storage** — Colors are stored as `Float` values (0.0–360.0) matching `BitmapDescriptorFactory` constants directly, so they can be passed straight to the Maps SDK with no conversion logic.
  
-**Real-time snapshot listeners** — `addSnapshotListener` on the dashboard means the map list updates instantly after any create or delete, with no manual refresh needed.
- 
 **`@DocumentId` annotation** — Bound to the Kotlin data class so the Firestore document ID is automatically available, making targeted deletes clean without storing a separate ID field.
  
 ---
@@ -131,7 +129,7 @@ maps/{mapDocumentId}
 | Passing `UserMap` objects between Activities | Implemented `Serializable` on the model and passed via `Intent` extras |
 | Map appearing blank on first run | Diagnosed via Logcat — Maps SDK and Identity Toolkit API needed enabling in Cloud Console |
 | Default info window capped at 2 lines | Built a custom `InfoWindowAdapter` with a dedicated XML layout |
-| Users not knowing how to delete maps | Added a `Snackbar` hint and wired `OnLongClickListener` for deletion |
+| Users not knowing how to create maps | Added a `Snackbar` hint and wired `OnLongClickListener` for creation |
  
 ---
  
