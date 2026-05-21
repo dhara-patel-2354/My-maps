@@ -11,14 +11,14 @@
  
 ## 📸 Screenshots
  
-<p float="left">
-  <img src="screenshots/signin.png" width="160"/>
-  <img src="screenshots/signup.png" width="160"/>
-  <img src="screenshots/dashboard.png" width="160"/>
-  <img src="screenshots/create_map.png" width="160"/>
-  <img src="screenshots/map.png" width="160"/>
-  <img src="screenshots/create_marker.png" width="160"/>
-</p>
+| Sign In | My Maps | Create Map |
+|:-------:|:-------:|:----------:|
+| <img src="screenshots/signin.png" width="220"/> | <img src="screenshots/dashboard.png" width="220"/> | <img src="screenshots/create_map.png" width="220"/> |
+ 
+| Map View | Create Marker |
+|:--------:|:-------------:|
+| <img src="screenshots/map.png" width="220"/> | <img src="screenshots/create_marker.png" width="220"/> |
+ 
 ---
  
 ## 🧠 About the Project
