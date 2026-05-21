@@ -15,9 +15,9 @@
 |:-------:|:-------:|:----------:|
 | <img src="screenshots/signin.png" width="220"/> | <img src="screenshots/dashboard.png" width="220"/> | <img src="screenshots/create_map.png" width="220"/> |
  
-| Map View | Create Marker |
+| Create Marker | Map View |
 |:--------:|:-------------:|
-| <img src="screenshots/map.png" width="220"/> | <img src="screenshots/create_marker.png" width="220"/> |
+| <img src="screenshots/create_marker.png" width="220"/> | <img src="screenshots/map.png" width="220"/> |
  
 ---
  
