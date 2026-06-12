@@ -9,7 +9,7 @@
  
 ---
  
-## 📸 Screenshots
+## Screenshots
  
 | Sign In | My Maps | Create Map |
 |:-------:|:-------:|:----------:|
@@ -21,7 +21,7 @@
  
 ---
  
-## 🧠 About the Project
+## About the Project
  
 Most mapping apps are built for navigation. MyMaps is built for **memory**.
  
@@ -31,18 +31,18 @@ Built as my first solo Android project to learn the full mobile stack: UI layout
  
 ---
  
-## ✨ Features
+## Features
  
-- 🔐 **Secure Auth** — Email/password login & signup via Firebase Auth
-- 🗺️ **Live Interactive Maps** — Long-press anywhere to drop a custom pin with a name and note
-- 🎨 **Marker Customization** — Choose from 8 marker colors via a custom dialog
-- 💾 **Real-time Cloud Sync** — All maps stored in Firestore; instantly available on any device
-- 🔄 **Dynamic Editing** — Revisit saved maps to add or remove markers at any time
-- 📅 **Auto-Timestamping** — Every pin automatically records its creation date
-- 🙌 **Onboarding** — Empty-state UI + auto-generated sample maps for new users
+- **Secure Auth** — Email/password login & signup via Firebase Auth
+- **Live Interactive Maps** — Long-press anywhere to drop a custom pin with a name and note
+- **Marker Customization** — Choose from 8 marker colors via a custom dialog
+- **Real-time Cloud Sync** — All maps stored in Firestore; instantly available on any device
+- **Dynamic Editing** — Revisit saved maps to add or remove markers at any time
+- **Auto-Timestamping** — Every pin automatically records its creation date
+- **Onboarding** — Empty-state UI + auto-generated sample maps for new users
 ---
  
-## 🛠️ Tech Stack
+## Tech Stack
  
 | Layer | Technology |
 |-------|-----------|
@@ -55,7 +55,7 @@ Built as my first solo Android project to learn the full mobile stack: UI layout
  
 ---
  
-## 🏗️ Architecture
+##  Architecture
  
 ### App Flow
  
@@ -112,7 +112,7 @@ maps/{mapDocumentId}
  
 ---
  
-## 🔑 Key Engineering Decisions
+## Key Engineering Decisions
  
 **Array fields for markers** — Markers are stored as an array inside the map document rather than a subcollection. This minimizes Firestore reads and ensures atomic updates of an entire trip in a single write.
  
@@ -122,7 +122,7 @@ maps/{mapDocumentId}
  
 ---
  
-## 🚧 Challenges & Solutions
+## Challenges & Solutions
  
 | Challenge | Solution |
 |-----------|----------|
@@ -133,7 +133,7 @@ maps/{mapDocumentId}
  
 ---
  
-## ⚙️ Setup
+## Setup
  
 1. Clone the repo and open in Android Studio
 2. Create a Firebase project → enable **Auth (Email/Password)** and **Firestore**
@@ -146,7 +146,7 @@ maps/{mapDocumentId}
 6. Build and run
 ---
  
-## 📖 Lessons Learned
+## Lessons Learned
  
 - Android's Activity lifecycle causes real bugs — async callbacks can fire on already-destroyed activities
 - NoSQL schema design has real performance tradeoffs that need to be decided upfront
@@ -154,7 +154,7 @@ maps/{mapDocumentId}
 - Logcat is the most valuable debugging tool in the Android ecosystem
 ---
  
-## 🗺️ Roadmap
+## Roadmap
  
 - [ ] Route drawing between markers
 - [ ] Photo uploads via Firebase Storage
